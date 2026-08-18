@@ -1,0 +1,46 @@
+# Public repository: source code only
+AGENTS.md
+CHANGELOG.md
+data/
+interface/
+notes/
+references/
+reports/
+results/
+scripts/
+third_party/
+
+# Experiment/build scripts and generated test memories
+matlab/scripts/
+fpga/scripts/
+fpga/memory/
+
+# MATLAB generated files
+*.asv
+*.m~
+slprj/
+codegen/
+
+# Vivado/XSim generated artifacts
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.jou
+tmp/
+xsim.dir/
+.Xil/
+*.pb
+*.wdb
+*.str
+*.dcp
+webtalk*
+
+# Rebuildable Vivado project directory contents
+fpga/vivado_project/*
+
+# OS/editor
+Thumbs.db
+.DS_Store
